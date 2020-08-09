@@ -101,7 +101,7 @@ nav #menu {
 }
 
 nav #menu li {
-      padding-left: 40px;
+      padding: 10px 0px 10px 40px;
       display: inline-block;
       cursor: pointer;
       font-weight: 300;
@@ -119,8 +119,8 @@ nav #menu li a {
 }
 
 nav #menu li a:hover {
-      text-decoration: underline;
-	text-decoration-color: #4AF362;
+      text-decoration: none;
+      color: #5ca4a9;
 }
 
 #toggle {
@@ -290,7 +290,7 @@ nav #menu li a:hover {
 }
 
 #herocolor{
-	color: #4AF362;
+	color: #5ca4a9;
 }
 
 #bannerspace{
@@ -349,60 +349,59 @@ h6 {
       left: 50%;
 }
 
-.project {
-      height: 500px;
-}
-
 .project1 {
-      background: url("../images/other/oth10.png")no-repeat 50% 50%;
-      background-size: cover;
+      background: url("../images/ddiAsg02/thumb.png") no-repeat;
+      background-size: contain;
+      height: 800px;
 }
 
 .project1::after {
-      content: "apartment.";
+      content: "DDI Assignment 2";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 8%;
-      left: -20%;
+      top: 30%;
+      left: 53%;
       right: 0;
       bottom: 0;
 }
 
 .project2 {
-      background: url( "../images/hl2.png") no-repeat 50% 50%;
-      background-size: cover;
+      background: url( "../images/duxAsg01/2home.jpg") no-repeat;
+      background-size: contain;
+      height: 800px;
 }
 
 .project2::after {
-      content: "e-commerce.";
+      content: "DUX Assignment 1";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 80%;
-      left: 105%;
+      top: 55%;
+      left: 50%;
       right: 0;
       bottom: 0;
 }
 
 .project3 {
-      background: url("../images/hl3.png") no-repeat 50% 50%;
-      background-size: cover;
+      background: url("../images/hl3.png") no-repeat;
+      background-size: contain;
+      height: 800px;
 }
 
 .project3::after {
-      content: "portfolio.";
+      content: "ITE Final";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 45%;
-      left: -25%;
+      top: 20%;
+      left: -28%;
       right: 0;
       bottom: 0;
 }
