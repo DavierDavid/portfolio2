@@ -389,15 +389,20 @@ h6 {
 
 .project3 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> parent of 9c38174... last
       background: url("../images/idAsg01/thumbnail.png") no-repeat;
+=======
+      background: url("../images/hl3.png") no-repeat;
+>>>>>>> parent of e747b4a... update2
       background-size: contain;
-      height: 550px;
+      height: 800px;
 }
 
 .project3::after {
+<<<<<<< HEAD
       content: "ID Assignment 1";
 <<<<<<< HEAD
 =======
@@ -410,6 +415,9 @@ h6 {
       content: "portfolio.";
 >>>>>>> parent of 1776440... update and upload img
 >>>>>>> parent of 9c38174... last
+=======
+      content: "ITE Final";
+>>>>>>> parent of e747b4a... update2
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
