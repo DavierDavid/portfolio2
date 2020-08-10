@@ -388,13 +388,13 @@ h6 {
 }
 
 .project3 {
-      background: url("../images/hl3.png") no-repeat;
+      background: url("../images/idAsg01/thumbnail.png") no-repeat;
       background-size: contain;
-      height: 800px;
+      height: 550px;
 }
 
 .project3::after {
-      content: "ITE Final";
+      content: "ID Assignment 1";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
