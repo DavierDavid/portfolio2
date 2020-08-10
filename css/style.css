@@ -101,7 +101,7 @@ nav #menu {
 }
 
 nav #menu li {
-      padding: 10px 0px 10px 40px;
+      padding-left: 40px;
       display: inline-block;
       cursor: pointer;
       font-weight: 300;
@@ -119,8 +119,8 @@ nav #menu li a {
 }
 
 nav #menu li a:hover {
-      text-decoration: none;
-      color: #5ca4a9;
+      text-decoration: underline;
+	text-decoration-color: #4AF362;
 }
 
 #toggle {
@@ -290,7 +290,7 @@ nav #menu li a:hover {
 }
 
 #herocolor{
-	color: #5ca4a9;
+	color: #4AF362;
 }
 
 #bannerspace{
@@ -349,59 +349,60 @@ h6 {
       left: 50%;
 }
 
+.project {
+      height: 500px;
+}
+
 .project1 {
-      background: url("../images/ddiAsg02/thumb.png") no-repeat;
-      background-size: contain;
-      height: 800px;
+      background: url("../images/other/oth10.png")no-repeat 50% 50%;
+      background-size: cover;
 }
 
 .project1::after {
-      content: "DDI Assignment 2";
+      content: "apartment.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 30%;
-      left: 53%;
+      top: 8%;
+      left: -20%;
       right: 0;
       bottom: 0;
 }
 
 .project2 {
-      background: url( "../images/duxAsg01/2home.jpg") no-repeat;
-      background-size: contain;
-      height: 800px;
+      background: url( "../images/hl2.png") no-repeat 50% 50%;
+      background-size: cover;
 }
 
 .project2::after {
-      content: "DUX Assignment 1";
+      content: "e-commerce.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 55%;
-      left: 50%;
+      top: 80%;
+      left: 105%;
       right: 0;
       bottom: 0;
 }
 
 .project3 {
-      background: url("../images/idAsg01/thumbnail.png") no-repeat;
-      background-size: contain;
-      height: 550px;
+      background: url("../images/hl3.png") no-repeat 50% 50%;
+      background-size: cover;
 }
 
 .project3::after {
-      content: "ID Assignment 1";
+      content: "portfolio.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 20%;
-      left: -28%;
+      top: 45%;
+      left: -25%;
       right: 0;
       bottom: 0;
 }
